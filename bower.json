@@ -1,0 +1,9 @@
+{
+  "name": "impress-startup",
+  "version": "0.0.1",
+  "dependencies": {
+    "impress.js": "~0.5.3"
+  },
+  "devDependencies": {},
+  "appPath": "app"
+}
