@@ -4,3 +4,6 @@ $('pre').click(function (event) {
     });
     event.preventDefault();
 });
+$.each($('code[data-trim=""]'),function(k,v){
+    $(v).html($.trim($(v).html()));
+});
